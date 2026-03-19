@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHAAZ Fresh Milk</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #0d6efd;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1563636619-e9143da7973b');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Buttons */
+.btn {
+    background: #fff;
+    color: #0d6efd;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+    background: #0d6efd;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>SHAAZ Fresh Milk</nav>
+
+<div class="hero">
+    <h1>100% Pure & Fresh Milk</h1>
+    <p>Direct From Farm to Your Home 🥛</p>
+    
+    <a href="tel:9991003336" class="btn">Call Now</a>
+    <a href="https://wa.me/919991003336" class="btn">Order on WhatsApp</a>
+</div>
+
+<div class="section">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+        <div class="box">🥛 100% Pure Milk</div>
+        <div class="box">🚚 Fast Home Delivery</div>
+        <div class="box">🌿 Fresh from Farm</div>
+        <div class="box">💯 Quality Guaranteed</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Our Products</h2>
